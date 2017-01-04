@@ -2054,39 +2054,6 @@ ul.proplist li {
 	background-position: 0 -650px;
 }
 
-@media (max-width: 1060px){
-	a.button.forward{
-		display: none;
-	}
-	a#forwardmenulink{
-		display: none;
-	}
-	a.button.reply-all{
-		display: none;
-	}
-	a#replyallmenulink{
-		display: none;
-	}
-	a.button.reply{
-		display: none;
-	}
-	#messagetoolbar.fullwidth.a.button.forward{
-		display: inline;
-	}
-	#messagetoolbar.fullwidth.a#forwardmenulink{
-		display: inline;
-	}
-	#messagetoolbar.fullwidth.a.button.reply-all{
-		display: inline;
-	}
-	#messagetoolbar.fullwidth.a#replyallmenulink{
-		display: inline;
-	}
-	#messagetoolbar.fullwidth.a.button.reply{
-		display: inline;
-	}
-}
-
 .toolbar a.button.delete {
 	background-position: center -690px;
 }
