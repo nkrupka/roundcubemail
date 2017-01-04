@@ -2059,16 +2059,31 @@ ul.proplist li {
 		display: none;
 	}
 	a#forwardmenulink{
-		display:none;
+		display: none;
 	}
 	a.button.reply-all{
-		display:none;
+		display: none;
 	}
 	a#replyallmenulink{
-		display:none;
+		display: none;
 	}
 	a.button.reply{
-		display:none;
+		display: none;
+	}
+	#messagetoolbar.fullwidth.a.button.forward{
+		display: inline;
+	}
+	#messagetoolbar.fullwidth.a#forwardmenulink{
+		display: inline;
+	}
+	#messagetoolbar.fullwidth.a.button.reply-all{
+		display: inline;
+	}
+	#messagetoolbar.fullwidth.a#replyallmenulink{
+		display: inline;
+	}
+	#messagetoolbar.fullwidth.a.button.reply{
+		display: inline;
 	}
 }
 
