@@ -1056,7 +1056,7 @@ a.iconlink.upload {
 }
 
 .minwidth {
-	min-width: 530px;
+	min-width: 860px;
 }
 
 .scroller {
@@ -2052,6 +2052,24 @@ ul.proplist li {
 .toolbar a.button.forward {
 	min-width: 64px;
 	background-position: 0 -650px;
+}
+
+@media (max-width: 1060px){
+	a.button.forward{
+		display: none;
+	}
+	a#forwardmenulink{
+		display:none;
+	}
+	a.button.reply-all{
+		display:none;
+	}
+	a#replyallmenulink{
+		display:none;
+	}
+	a.button.reply{
+		display:none;
+	}
 }
 
 .toolbar a.button.delete {
